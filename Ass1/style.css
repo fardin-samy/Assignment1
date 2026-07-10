@@ -41,6 +41,7 @@
     background-size: cover;
     height: 800px;
     background-position: center;
+    margin: 20px 0;
 }
 .hero-contents{
     position: relative;
@@ -72,5 +73,54 @@
 .hero-contents button:hover{
     background-color: #1E40AF;
     opacity: 0.8;
+}
+
+.Speakers{
+    margin: 50px 80px;
+    
+}
+
+.Speakers h1{
+    /* align-items: center; */
+    text-align: center;
+    margin: 30px 0;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 700;
+
+    
+}
+.cards{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+
+}
+.info{
+   display: flex;
+   flex-direction: column;
+   height: 400px;
+   width: 500px;
+   margin: 20px 0;
+   padding: 20px;
+   border: 1px solid #E5E7EB;
+}
+.sector{
+    font-size: 13px;
+    font-weight: 200;
+    color: #2563EB;
+    margin: 10px 0;
+}
+.name{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.place{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6B7280;
+    margin: 10px 0;
 }
 
