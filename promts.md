@@ -1,0 +1,2 @@
+I am trying to make a frontend based on the DevConf 2026 theme, and almost everything is done just need a creative section to add (e.g. Sponsors, Venue, FAQ, Newsletter Signup, Hackathon Details, Past Highlights, Job Board, etc.) .
+Help me to make simple and well-structured section related to that
