@@ -4,8 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DevConfig</title>
-    <link rel="icon" href="./assets/logo-mini.png">
+    <link rel="icon" href="./assets/logo-mini.png" />
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
   </head>
   <body>
     <nav class="navbar">
@@ -51,7 +55,7 @@
     <section class="Speakers">
       <h1 class="headers">Meet the Speakers</h1>
       <div class="cards">
-        <div class="card">  
+        <div class="card">
           <div class="info">
             <img src="./assets/andrej.png" alt="andrej" />
             <span class="sector">AI / ML</span>
@@ -85,77 +89,242 @@
         </div>
       </div>
     </section>
-    
+
     <section class="pricing">
-        <div class="pricing-header">
-            <h1 class="headers">Secure Your Spot</h1>
-            <span class="title">Early-bird pricing ends August 15,2026.</span>
+      <div class="pricing-header">
+        <h1 class="headers">Secure Your Spot</h1>
+        <span class="title">Early-bird pricing ends August 15,2026.</span>
+      </div>
+
+      <div class="parentbox">
+        <div class="box">
+          <div class="box-header">
+            <span class="box-header-title">Standard</span>
+            <span class="box-header-price">$499</span>
+            <span class="box-header-subtitle">per person</span>
+          </div>
+          <hr />
+          <ul class="box-list">
+            <li>Access to all 3 conference days</li>
+            <li>48 curated technical talks</li>
+            <li>2 workshop sessions</li>
+            <li>Networking lunch & coffe breaks</li>
+            <li>Conference swag bag</li>
+            <li>Digital recordings(30days)</li>
+          </ul>
+          <button class="box-btn">Get Standard</button>
+        </div>
+        <div class="box" id="pro">
+          <div class="box-header">
+            <span class="box-header-title">Pro</span>
+            <span class="box-header-price">$749</span>
+            <span class="box-header-subtitle">per person</span>
+          </div>
+          <hr />
+          <ul class="box-list">
+            <li>Everything in Standard</li>
+            <li>Unlimited workshop access</li>
+            <li>Speaker meet & greet</li>
+            <li>VIP networking dinner</li>
+            <li>Lifetime recordings access</li>
+            <li>1-on-1 mentorship (30min)</li>
+          </ul>
+          <button class="box-btn">Get Pro</button>
+        </div>
+        <div class="box">
+          <div class="box-header">
+            <span class="box-header-title">Team</span>
+            <span class="box-header-price">$5,999</span>
+            <span class="box-header-subtitle">up to 10 people</span>
+          </div>
+          <hr />
+          <ul class="box-list">
+            <li>Everything in Pro</li>
+            <li>Dedicated team lounge access</li>
+            <li>Private workshop booking</li>
+            <li>Company logo on event page</li>
+            <li>Recruitment booth (1day)</li>
+            <li>Priority customer supports</li>
+          </ul>
+          <button class="box-btn">Contact Us</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ai section -->
+
+    <!-- Conference Schedule -->
+
+    <section class="schedule">
+      <h1 class="headers">Conference Schedule</h1>
+      <p class="section-subtitle">
+        Three days packed with inspiring talks and hands-on workshops.
+      </p>
+
+      <div class="schedule-container">
+        <div class="schedule-card">
+          <h2>Day 1</h2>
+          <span class="track">AI & Machine Learning</span>
+
+          <div class="event">
+            <span>09:00 AM</span>
+            <p>Opening Keynote</p>
+          </div>
+
+          <div class="event">
+            <span>10:30 AM</span>
+            <p>Building Large Language Models</p>
+          </div>
+
+          <div class="event">
+            <span>02:00 PM</span>
+            <p>AI Safety Workshop</p>
+          </div>
+
+          <div class="event">
+            <span>05:00 PM</span>
+            <p>Networking Session</p>
+          </div>
         </div>
 
-        <div class="parentbox">
-            <div class="box">
-                <div class="box-header">
-                    <span class="box-header-title">Standard</span>
-                    <span class="box-header-price">$499</span>
-                    <span class="box-header-subtitle">per person</span>
-                </div>
-                <hr>
-                <ul class="box-list">
-                    <li>Access to all 3 conference days</li>
-                    <li>48 curated technical talks</li>
-                    <li>2 workshop sessions</li>
-                    <li>Networking lunch & coffe breaks</li>
-                    <li>Conference swag bag</li>
-                    <li>Digital recordings(30days)</li>
-                </ul>
-                <button class="box-btn">Get Standard</button>
-            </div>
-            <div class="box" id="pro">
-                <div class="box-header">
-                    <span class="box-header-title">Pro</span>
-                    <span class="box-header-price">$749</span>
-                    <span class="box-header-subtitle">per person</span>
-                </div>
-                <hr>
-                <ul class="box-list">
-                    <li>Everything in Standard</li>
-                    <li>Unlimited workshop access</li>
-                    <li>Speaker meet & greet</li>
-                    <li>VIP networking dinner</li>
-                    <li>Lifetime recordings access</li>
-                    <li>1-on-1 mentorship (30min)</li>
-                </ul>
-                <button class="box-btn">Get Pro</button>
-            </div>
-            <div class="box">
-                <div class="box-header">
-                    <span class="box-header-title">Team</span>
-                    <span class="box-header-price">$5,999</span>
-                    <span class="box-header-subtitle">up to 10 people</span>
-                </div>
-                <hr>
-                <ul class="box-list">
-                    <li>Everything in Pro</li>
-                    <li>Dedicated team lounge access</li>
-                    <li>Private workshop booking</li>
-                    <li>Company logo on event page</li>
-                    <li>Recruitment booth (1day)</li>
-                    <li>Priority customer supports</li>
-                </ul>
-                <button class="box-btn">Contact Us</button>
-            </div>
+        <div class="schedule-card">
+          <h2>Day 2</h2>
+          <span class="track">Cloud & DevOps</span>
+
+          <div class="event">
+            <span>09:30 AM</span>
+            <p>Kubernetes Deep Dive</p>
+          </div>
+
+          <div class="event">
+            <span>11:00 AM</span>
+            <p>Serverless Architecture</p>
+          </div>
+
+          <div class="event">
+            <span>02:30 PM</span>
+            <p>Docker Best Practices</p>
+          </div>
+
+          <div class="event">
+            <span>04:30 PM</span>
+            <p>Cloud Security Panel</p>
+          </div>
         </div>
+
+        <div class="schedule-card">
+          <h2>Day 3</h2>
+          <span class="track">Frontend & Web</span>
+
+          <div class="event">
+            <span>09:00 AM</span>
+            <p>Modern React</p>
+          </div>
+
+          <div class="event">
+            <span>11:30 AM</span>
+            <p>Animations with CSS</p>
+          </div>
+
+          <div class="event">
+            <span>02:00 PM</span>
+            <p>Performance Optimization</p>
+          </div>
+
+          <div class="event">
+            <span>04:00 PM</span>
+            <p>Closing Ceremony</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sponsors -->
+    <section class="sponsors">
+      <h1 class="headers">Trusted By Industry Leaders</h1>
+
+      <p class="section-subtitle">
+        Proudly sponsored by the companies shaping the future of technology.
+      </p>
+
+      <div class="sponsor-grid">
+        <div class="sponsor-card">
+          <i class="fa-brands fa-google"></i>
+          <h3>Google</h3>
+          <span>Platinum Sponsor</span>
+        </div>
+
+        <div class="sponsor-card">
+          <i class="fa-brands fa-microsoft"></i>
+          <h3>Microsoft</h3>
+          <span>Platinum Sponsor</span>
+        </div>
+
+        <div class="sponsor-card">
+          <i class="fa-brands fa-github"></i>
+          <h3>GitHub</h3>
+          <span>Gold Sponsor</span>
+        </div>
+
+        <div class="sponsor-card">
+          <i class="fa-brands fa-docker"></i>
+          <h3>Docker</h3>
+          <span>Gold Sponsor</span>
+        </div>
+
+        <div class="sponsor-card">
+          <i class="fa-brands fa-aws"></i>
+          <h3>Amazon AWS</h3>
+          <span>Cloud Partner</span>
+        </div>
+
+        <div class="sponsor-card">
+          <i class="fa-brands fa-cloudflare"></i>
+          <h3>Cloudflare</h3>
+          <span>Networking Partner</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+      <h1 class="headers">Frequently Asked Questions</h1>
+
+      <div class="faq-container">
+        <div class="faq-item">
+          <h3>What does the ticket include?</h3>
+          <p>
+            Access to all conference sessions, workshops, networking events and
+            digital recordings.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Will sessions be recorded?</h3>
+          <p>
+            Yes. All attendees receive access to session recordings after the
+            conference.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Can beginners attend?</h3>
+          <p>Absolutely! Sessions range from beginner to advanced levels.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Is food provided?</h3>
+          <p>Lunch, coffee breaks and refreshments are included every day.</p>
+        </div>
+      </div>
     </section>
 
     <footer class="footer">
-        <div>
-            &copy; 2026 DevConf. All rights reserved.
-        </div>
-        <div>
-            <span>Privacy Policy</span>
-            <span>Teams of service</span>
-        </div>
+      <div>&copy; 2026 DevConf. All rights reserved.</div>
+      <div>
+        <span>Privacy Policy</span>
+        <span>Teams of service</span>
+      </div>
     </footer>
-    
   </body>
 </html>
