@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><img src="./assets/logo-mini.png" alt="">DevConfig</title>
+    <title>DevConfig</title>
+    <link rel="icon" href="./assets/logo-mini.png">
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -48,14 +49,14 @@
     </section>
 
     <section class="Speakers">
-      <h1>Meet the Speakers</h1>
+      <h1 class="headers">Meet the Speakers</h1>
       <div class="cards">
         <div class="card">  
           <div class="info">
             <img src="./assets/andrej.png" alt="andrej" />
             <span class="sector">AI / ML</span>
             <span class="name">Andrej Karpathy</span>
-            <span class="place">Pretraining team,Anthropic</span>
+            <span class="title">Pretraining team,Anthropic</span>
           </div>
         </div>
         <div class="card">
@@ -63,7 +64,7 @@
             <img src="./assets/demis.png" alt="demis" />
             <span class="sector">CLOUD&DEVOPS</span>
             <span class="name">Demis Hassabis</span>
-            <span class="place">Co-founder and CEO , Google Deepmind</span>
+            <span class="title">Co-founder and CEO , Google Deepmind</span>
           </div>
         </div>
         <div class="card">
@@ -71,7 +72,7 @@
             <img src="./assets/gary.png" alt="gary" />
             <span class="sector">FRONTEND</span>
             <span class="name">Gary Marcus</span>
-            <span class="place">Staff Engineer,Vercel</span>
+            <span class="title">Staff Engineer,Vercel</span>
           </div>
         </div>
         <div class="card">
@@ -79,10 +80,72 @@
             <img src="./assets/mustafa.png" alt="mustafa" />
             <span class="sector">SECURITY</span>
             <span class="name">Mustafa Suleyman</span>
-            <span class="place">CEO of Microsoft AI</span>
+            <span class="title">CEO of Microsoft AI</span>
           </div>
         </div>
       </div>
     </section>
+    
+    <section class="pricing">
+        <div class="pricing-header">
+            <h1 class="headers">Secure Your Spot</h1>
+            <span class="title">Early-bird pricing ends August 15,2026.</span>
+        </div>
+
+        <div class="parentbox">
+            <div class="box">
+                <div class="box-header">
+                    <span class="box-header-title">Standard</span>
+                    <span class="box-header-price">$499</span>
+                    <span class="box-header-subtitle">per person</span>
+                </div>
+                <hr>
+                <ul class="box-list">
+                    <li>Access to all 3 conference days</li>
+                    <li>48 curated technical talks</li>
+                    <li>2 workshop sessions</li>
+                    <li>Networking lunch & coffe breaks</li>
+                    <li>Conference swag bag</li>
+                    <li>Digital recordings(30days)</li>
+                </ul>
+                <button class="box-btn">Get Standard</button>
+            </div>
+            <div class="box" id="pro">
+                <div class="box-header">
+                    <span class="box-header-title">Pro</span>
+                    <span class="box-header-price">$749</span>
+                    <span class="box-header-subtitle">per person</span>
+                </div>
+                <hr>
+                <ul class="box-list">
+                    <li>Everything in Standard</li>
+                    <li>Unlimited workshop access</li>
+                    <li>Speaker meet & greet</li>
+                    <li>VIP networking dinner</li>
+                    <li>Lifetime recordings access</li>
+                    <li>1-on-1 mentorship (30min)</li>
+                </ul>
+                <button class="box-btn">Get Pro</button>
+            </div>
+            <div class="box">
+                <div class="box-header">
+                    <span class="box-header-title">Team</span>
+                    <span class="box-header-price">$5,999</span>
+                    <span class="box-header-subtitle">up to 10 people</span>
+                </div>
+                <hr>
+                <ul class="box-list">
+                    <li>Everything in Pro</li>
+                    <li>Dedicated team lounge access</li>
+                    <li>Private workshop booking</li>
+                    <li>Company logo on event page</li>
+                    <li>Recruitment booth (1day)</li>
+                    <li>Priority customer supports</li>
+                </ul>
+                <button class="box-btn">Contact Us</button>
+            </div>
+        </div>
+    </section>
+    
   </body>
 </html>
